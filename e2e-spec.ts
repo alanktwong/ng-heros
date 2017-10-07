@@ -36,7 +36,7 @@ class Hero {
     }
 }
 
-describe('Tutorial part 2', () => {
+describe('Tutorial part 3', () => {
   beforeAll(() => browser.get(''));
   describe('Initial page', initialPageTests);
   describe('Select hero', selectHeroTests);
