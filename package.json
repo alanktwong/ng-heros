@@ -23,7 +23,7 @@
     "lint": "tslint ./src/**/*.ts -t verbose"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alan Wong",
   "license": "MIT",
   "dependencies": {
     "@angular/animations": "~4.3.1",
@@ -60,6 +60,7 @@
     "babel-preset-es2015": "^6.16.0",
     "canonical-path": "0.0.2",
     "concurrently": "^3.0.0",
+    "cpx": "^1.5.0",
     "http-server": "^0.9.0",
     "jasmine": "~2.4.1",
     "jasmine-core": "~2.4.1",
@@ -71,8 +72,10 @@
     "karma-phantomjs-launcher": "^1.0.2",
     "lite-server": "^2.2.2",
     "lodash": "^4.16.2",
+    "onchange": "^3.2.1",
     "phantomjs-prebuilt": "^2.1.7",
     "protractor": "~5.1.0",
+    "rimraf": "^2.6.2",
     "rollup": "^0.41.6",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-node-resolve": "2.0.0",
